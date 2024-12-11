@@ -1,0 +1,26 @@
+
+Save the file. This will serve as the homepage for your site.
+
+---
+
+1. Add a `_config.yml` file to the `docs/` folder:
+   - On GitHub, create a file named `docs/_config.yml`.
+   - Add the following content:
+     ```yaml
+     title: Computational Modeling of Behavioral Data
+     description: A collection of assignments for behavioral data modeling.
+     theme: jekyll-theme-cayman
+     ```
+
+   - Locally, you can do:
+     ```bash
+     echo "title: Computational Modeling of Behavioral Data" > docs/_config.yml
+     echo "description: A collection of assignments for behavioral data modeling." >> docs/_config.yml
+     echo "theme: jekyll-theme-cayman" >> docs/_config.yml
+     ```
+
+2. Commit and push the changes:
+   ```bash
+   git add docs/
+   git commit -m "Add Cayman theme and site content"
+   git push origin gh-pages
